@@ -2,7 +2,7 @@
 
 namespace RefactoringGuru\FactoryMethod\RealWorld;
 
-/**
+/** 2nd test
  * The Creator declares a factory method that can be used as a substitution for
  * the direct constructor calls of products, for instance:
  *
