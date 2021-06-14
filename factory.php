@@ -3,6 +3,8 @@
 namespace RefactoringGuru\FactoryMethod\RealWorld;
 
 /** 2nd test
+ * This is the 3rd change
+ * 4th change
  * The Creator declares a factory method that can be used as a substitution for
  * the direct constructor calls of products, for instance:
  *
@@ -45,6 +47,7 @@ abstract class SocialNetworkPoster
 class FacebookPoster extends SocialNetworkPoster
 {
     private $login, $password;
+    private $leo_variable;
 
     public function __construct(string $login, string $password)
     {
@@ -63,7 +66,7 @@ class FacebookPoster extends SocialNetworkPoster
  */
 class LinkedInPoster extends SocialNetworkPoster
 {
-    private $email, $password;
+    private $email;
 
     public function __construct(string $email, string $password)
     {
